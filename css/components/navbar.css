@@ -1,0 +1,23 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--light-black);
+    font-size: 1.1rem;
+}
+
+.navbar .navbar-content {
+    padding: 1.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar-content a{
+    color: var(--white);
+    font-weight: 500;
+}
+
+.navbar .navbar-content .navbar-links a{
+    color: var(--white);
+    font-weight: 500;
+}
