@@ -1,0 +1,42 @@
+.projects {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 8rem;
+}
+
+.projects .text-projects {
+    margin-bottom: 15px;
+}
+
+.projects .text-projects p {
+    color: var(--light-black);
+}
+
+.projects .text-projects h2 {
+    display: flex;
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--light-black);
+    align-items: center;
+    cursor: pointer;
+}
+
+.projects img {
+    border-radius: 5px;
+    width: 640px;
+    height: 480px;
+    border: 1px solid #dedede;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    .projects img {
+        width: 426px;
+        height: 240px;
+    }
+}

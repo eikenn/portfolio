@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import "./navbar.css";
+@import "./projects.css";
+@import "./footer.css";
+@import "./navbar.css";
+
+:root {
+    --black: #090909;
+    --light-black: #090909cc;
+    --white: #fafafa;
+    --gray: #71717a;
+    --light-gray: #dedede80;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-size: 14px;
+    max-width: 100vw;
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
