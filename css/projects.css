@@ -14,6 +14,8 @@
 
 .projects .text-projects p {
     color: var(--light-black);
+    max-width: 640px;
+    text-align: justify;
 }
 
 .projects .text-projects h2 {
@@ -35,6 +37,10 @@
 /* Media queries */
 
 @media (max-width: 768px) {
+    .projects .text-projects p {
+        max-width: 426px;
+    }
+
     .projects img {
         width: 426px;
         height: 240px;
