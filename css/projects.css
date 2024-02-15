@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10rem;
-    gap: 8rem;
+    gap: 4rem;
 }
 
 .projects .text-projects {
@@ -30,7 +30,7 @@
 .projects img {
     border-radius: 5px;
     width: 640px;
-    height: 480px;
+    height: 360px;
     border: 1px solid #dedede;
 }
 
@@ -44,5 +44,16 @@
     .projects img {
         width: 426px;
         height: 240px;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects .text-projects p {
+        max-width: 426px;
+    }
+
+    .projects img {
+        width: 293px;
+        height: 200px;
     }
 }
