@@ -1,18 +1,21 @@
-const button = document.querySelector('#mobile-btn');
-const mobileLinks = document.querySelector('#mobile-links');
+const button = document.querySelector('#mobile-menu-btn')
+const mobileMenu = document.querySelector('#mobile-menu')
+const logo = document.querySelector('#navbar-logo')
 
 const clickButton = () => {
-    const style = getComputedStyle(mobileLinks)
+    const style = getComputedStyle(mobileMenu)
     if(style.display === 'none') {
-        mobileLinks.style.display = 'flex'
+        mobileMenu.style.display = 'flex'
     } else {
-        mobileLinks.style.display = 'none'
+        mobileMenu.style.display = 'none'
     }
 }
 
 const closeMenu = () => {
-    mobileLinks.style.display = 'none'
+    mobileMenu.style.display = 'none'
 }
 
 button.addEventListener('click', clickButton)
-mobileLinks.addEventListener('click', closeMenu)
+
+mobileMenu.addEventListener('click', closeMenu)
+logo.addEventListener('click', closeMenu)
