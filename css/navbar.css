@@ -3,6 +3,7 @@
     width: 100vw;
     background-color: var(--white);
     border-bottom: 1px solid var(--light-gray);
+    z-index: 1;
 }
 
 #navbar-content {
@@ -46,6 +47,7 @@
 
 #mobile-menu-btn, #mobile-menu {
     display: none;
+    z-index: 1;
 }
 
 /* Media queries */

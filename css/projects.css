@@ -30,6 +30,12 @@
     width: 640px;
     height: 360px;
     border: 1px solid #dedede;
+    object-fit: cover;
+    transition: opacity .3s;
+}
+
+.projects img:hover {
+    opacity: .9;
 }
 
 /* Media queries */
@@ -47,11 +53,11 @@
 
 @media (max-width: 500px) {
     .projects .text-projects p {
-        max-width: 293px;
+        max-width: 320px;
     }
 
     .projects img {
-        width: 293px;
-        height: 200px;
+        width: 320px;
+        height: 180px;
     }
 }
