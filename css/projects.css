@@ -26,10 +26,10 @@
 }
 
 .projects img {
-    border-radius: 5px;
     width: 640px;
     height: 360px;
     border: 1px solid #dedede;
+    border-radius: 7px;
     object-fit: cover;
     transition: opacity .3s;
 }
