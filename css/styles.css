@@ -4,7 +4,6 @@
 @import "./home.css";
 @import "./projects.css";
 @import "./footer.css";
-@import "./navbar.css";
 
 :root {
     --black: #090909;
@@ -24,7 +23,6 @@
 
 body {
     font-size: 14px;
-    max-width: 100vw;
     background-color: var(--white);
 }
 
