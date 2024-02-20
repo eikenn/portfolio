@@ -7,10 +7,11 @@
 
 :root {
     --black: #090909;
-    --light-black: #090909cc;
+    --transparent-black: #090909cc;
     --white: #fafafa;
-    --gray: #71717a;
-    --light-gray: #dedede80;
+    --dark-grey: darkgrey;
+    --hover: #202020;
+    --border: #222;
 }
 
 * {
@@ -23,7 +24,7 @@
 
 body {
     font-size: 14px;
-    background-color: var(--white);
+    background-color: var(--black);
     margin-top: 66px;
 }
 

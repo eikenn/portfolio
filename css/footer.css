@@ -2,7 +2,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px;
-    border-top: 1px solid var(--light-gray);
     margin-top: 5rem;
-    background-color: var(--white);
+    border-top: 1px solid var(--border);
+    background-color: var(--black);
+    color: var(--white);
 }

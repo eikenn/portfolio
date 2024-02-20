@@ -9,25 +9,25 @@
     margin-bottom: 15px;
 }
 
-.projects .text-projects p {
-    color: var(--light-black);
-    max-width: 640px;
-    text-align: justify;
-}
-
 .projects .text-projects h2 {
     display: flex;
     font-weight: 600;
     font-size: 23px;
-    color: var(--light-black);
+    color: var(--white);
     align-items: center;
     cursor: pointer;
+}
+
+.projects .text-projects p {
+    color: var(--dark-grey);
+    max-width: 640px;
+    text-align: justify;
 }
 
 .projects img {
     width: 640px;
     height: 360px;
-    border: 1px solid #dedede;
+    border: 1px solid var(--border);
     border-radius: 7px;
     object-fit: cover;
     transition: opacity .3s;
