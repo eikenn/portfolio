@@ -24,7 +24,7 @@
 body {
     font-size: 14px;
     background-color: var(--white);
-    padding-top: 5rem;
+    margin-top: 66px;
 }
 
 a {
