@@ -1,0 +1,33 @@
+#home {
+    margin-bottom: 5rem;
+    background: url(../src/images/vivid-blurred-colorful-wallpaper-background.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#home-text {
+    margin: auto 5rem;
+    position: relative;
+    top: 40%;
+    transform: translate(0, -50%);
+}
+
+#home-text h1 {
+    font-size: 65px;
+    color: var(--white);
+}
+
+#home-text h1 span {
+    background-image: linear-gradient(to right, rgb(209, 18, 18), rgb(210, 89, 8), rgb(209, 18, 18));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+#home-text p {
+    font-size: 30px;
+    color: var(--white);
+}
