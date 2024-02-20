@@ -33,8 +33,8 @@
     transition: opacity .3s;
 }
 
-.projects img:active {
-    opacity: .8;
+.projects img:hover {
+    opacity: .9;
 }
 
 /* Media queries */
