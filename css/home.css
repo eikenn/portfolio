@@ -1,6 +1,6 @@
 #home {
     margin-bottom: 5rem;
-    background: url(../src/images/vivid-blurred-colorful-wallpaper-background.jpg);
+    background: url(../src/images/vivid-background.jpg);
     background-size: cover;
     object-fit: cover;
     width: 100vw;
@@ -16,6 +16,7 @@
 
 #home-text h1 {
     font-size: 65px;
+    max-width: 60vw;
     color: var(--white);
 }
 
@@ -30,4 +31,31 @@
 #home-text p {
     font-size: 30px;
     color: var(--white);
+}
+
+/* Media queries */
+
+@media (max-width: 1280px) {
+    #home-text {
+        margin: auto 4rem;
+    }
+
+    #home-text h1 {
+        font-size: 60px;
+    }
+
+    #home-text p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 678px) {
+
+    #home-text h1 {
+        font-size: 40px;
+    }
+
+    #home-text p {
+        font-size: 20px;
+    }
 }
